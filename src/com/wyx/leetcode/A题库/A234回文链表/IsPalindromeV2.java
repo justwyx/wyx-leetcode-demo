@@ -2,8 +2,6 @@ package com.wyx.leetcode.A题库.A234回文链表;
 
 import com.wyx.leetcode.common.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @Description :
