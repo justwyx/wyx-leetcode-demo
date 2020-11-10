@@ -13,4 +13,10 @@ public class KClosestV1 {
 		Arrays.sort(points, Comparator.comparingInt(o -> (o[0] * o[0] + o[1] * o[1])));
 		return Arrays.copyOfRange(points, 0, K);
 	}
+
+
+	public static void main(String[] args) {
+		System.out.println(3 & 1);
+		System.out.println(2 & 1);
+	}
 }
