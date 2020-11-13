@@ -1,6 +1,7 @@
 package com.wyx.leetcode.A题库.A922按奇偶排序数组II;
 
 import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * @author : Just wyx
@@ -28,8 +29,13 @@ public class SortArrayByParityIIV2 {
 		A[i] = A[i] ^ A[j];
 	}
 
-	public static void main(String[] args) {
-		int[] A = {4,2,5,7};
-		System.out.println(Arrays.toString(sortArrayByParityII(A)));
+	public static void main(String[] args) throws InterruptedException {
+//		int[] A = {4,2,5,7};
+//		System.out.println(Arrays.toString(sortArrayByParityII(A)));
+
+		System.out.println(System.nanoTime());
+		Thread.sleep(1);
+		System.out.println(System.nanoTime());
+		System.out.println(1/2);
 	}
 }
